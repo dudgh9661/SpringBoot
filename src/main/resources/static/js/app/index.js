@@ -1,6 +1,5 @@
 var main = {
     init : function() {
-        alert("hihii");
         var _this = this;
         $('#btn-save').on('click', function() {
             _this.save();
