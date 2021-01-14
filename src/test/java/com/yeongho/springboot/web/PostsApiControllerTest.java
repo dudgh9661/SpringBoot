@@ -61,9 +61,10 @@ public class PostsApiControllerTest {
         postsRepository.deleteAll();
     }
 
+    //Posts_등록된다
     @Test
     @WithMockUser(roles="USER")
-    public void Posts_등록된다() throws Exception {
+    public void registerPosts() throws Exception {
         //given
         String title = "title";
         String content = "content";
@@ -87,9 +88,10 @@ public class PostsApiControllerTest {
         assertThat(all.get(0).getContent()).isEqualTo(content);
     }
 
+    //Posts_수정된다
     @Test
     @WithMockUser(roles="USER")
-    public void Posts_수정된다() throws Exception {
+    public void updatePosts() throws Exception {
         //given
         Posts savedPosts = postsRepository.save(Posts.builder()
                 .title("title")

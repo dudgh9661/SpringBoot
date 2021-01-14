@@ -17,8 +17,9 @@ public class IndexControllerTest {
     @Autowired
     private TestRestTemplate restTemplate;
 
+    //메인페이지_로딩
     @Test
-    public void loadingMainPage() {
+    public void loadingMainpage() {
         //when
         String body = this.restTemplate.getForObject("/", String.class);
 

@@ -6,6 +6,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class HelloResponseDtoTest {
 
+    //롬복_기능_테스트
     @Test
     public void lombokFuncTest() {
         //given
@@ -19,5 +20,4 @@ public class HelloResponseDtoTest {
         assertThat(dto.getName()).isEqualTo(name);
         assertThat(dto.getAmount()).isEqualTo(amount);
     }
-
 }
