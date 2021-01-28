@@ -2,7 +2,7 @@
 
 
 <img src="./img/구조.png" width="800" height="600">
-<img src="./img/글작성전.png" width="800" height="600">
+<img src="./img/test.png" width="800" height="600">
 <img src="./img/구글로그인.png" width="500" height="500">
 <img src="./img/글작성.png" width="600" height="600">
 <img src="./img/글작성후.png" width="800" height="600">
