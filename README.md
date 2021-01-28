@@ -1,7 +1,7 @@
 # Spring Boot Framework를 이용한 무중단 배포 게시판 웹 페이지
 
 
-<img src="./img/구조.jpg" width="800" height="600">
+<img src="./img/구조.png" width="800" height="600">
 <img src="./img/글작성전.png" width="800" height="600">
 <img src="./img/구글로그인.png" width="500" height="500">
 <img src="./img/글작성.png" width="600" height="600">
